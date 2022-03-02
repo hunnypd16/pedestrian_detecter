@@ -1,0 +1,10 @@
+library used:
+opencv-py
+imutils
+using pip we can install both libraries
+opencv-python:tools for image processing and performing computer vision tasks
+open source library that can be used to perform task like face detection,objection tracking,landmark detection
+and much more.
+imutils:A series of convenience function to make basic image processing functions such as translation,rotation,resizing,
+skeletonization ,displaying matplotlib images ,sorting contours,detecting edges and much more easier with opencv and both
+both python2.7and python 2.3
