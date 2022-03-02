@@ -8,3 +8,20 @@ and much more.
 imutils:A series of convenience function to make basic image processing functions such as translation,rotation,resizing,
 skeletonization ,displaying matplotlib images ,sorting contours,detecting edges and much more easier with opencv and both
 both python2.7and python 2.3
+
+
+We can extract features like head, two arms, two legs, etc, from an image of a human body and pass them to train a machine learning model.
+ After training, the model can be used to detect and track humans in images and video streams. However, OpenCV has a built-in method to detect pedestrians.
+ It has a pre-trained HOG(Histogram of Oriented Gradients) + Linear SVM model to detect pedestrians in images and video streams.
+
+Histogram of Oriented Gradients
+
+This algorithm checks directly surrounding pixels of every single pixel.
+The goal is to check how darker is the current pixel compared to the surrounding pixels.
+The algorithm draws and arrows showing the direction of the image getting darker.
+It repeats the process for each and every pixel in the image.
+At last, every pixel would be replaced by an arrow, these arrows are called Gradients.
+These gradients show the flow of light from light to dark.
+ By using these gradients algorithms perform further analysis.
+ To learn more about HOG, read Navneet Dalal and Bill Triggs research paper on HOG for Human Detection..
+
